@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "dgSpecHash": "w2ohumPSLMU=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Coobo\\Downloads\\SDBP031-Phase1-Mohammed_Aftab_Ahmed_Khan-N01786487\\AgentAssignment\\AgentAssignment.Server\\AgentAssignment.Server.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Coobo\\.nuget\\packages\\betalgo.ranul.openai\\9.1.0\\betalgo.ranul.openai.9.1.0.nupkg.sha512",
+    "C:\\Users\\Coobo\\.nuget\\packages\\microsoft.ai.foundry.local\\2.0.1\\microsoft.ai.foundry.local.2.0.1.nupkg.sha512",
+    "C:\\Users\\Coobo\\.nuget\\packages\\microsoft.ai.foundry.local.runtime\\2.0.1\\microsoft.ai.foundry.local.runtime.2.0.1.nupkg.sha512",
+    "C:\\Users\\Coobo\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\9.0.0\\microsoft.bcl.asyncinterfaces.9.0.0.nupkg.sha512",
+    "C:\\Users\\Coobo\\.nuget\\packages\\microsoft.extensions.ai.abstractions\\10.10.1\\microsoft.extensions.ai.abstractions.10.10.1.nupkg.sha512",
+    "C:\\Users\\Coobo\\.nuget\\packages\\microsoft.extensions.ai.openai\\10.10.1\\microsoft.extensions.ai.openai.10.10.1.nupkg.sha512",
+    "C:\\Users\\Coobo\\.nuget\\packages\\microsoft.ml.onnxruntime\\1.28.0\\microsoft.ml.onnxruntime.1.28.0.nupkg.sha512",
+    "C:\\Users\\Coobo\\.nuget\\packages\\microsoft.ml.onnxruntime.managed\\1.28.0\\microsoft.ml.onnxruntime.managed.1.28.0.nupkg.sha512",
+    "C:\\Users\\Coobo\\.nuget\\packages\\microsoft.ml.onnxruntimegenai.foundry\\0.15.2\\microsoft.ml.onnxruntimegenai.foundry.0.15.2.nupkg.sha512",
+    "C:\\Users\\Coobo\\.nuget\\packages\\microsoft.ml.onnxruntimegenai.managed\\0.15.2\\microsoft.ml.onnxruntimegenai.managed.0.15.2.nupkg.sha512",
+    "C:\\Users\\Coobo\\.nuget\\packages\\openai\\2.14.0\\openai.2.14.0.nupkg.sha512",
+    "C:\\Users\\Coobo\\.nuget\\packages\\system.clientmodel\\1.15.0\\system.clientmodel.1.15.0.nupkg.sha512",
+    "C:\\Users\\Coobo\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
+    "C:\\Users\\Coobo\\.nuget\\packages\\system.memory.data\\10.0.9\\system.memory.data.10.0.9.nupkg.sha512",
+    "C:\\Users\\Coobo\\.nuget\\packages\\system.numerics.tensors\\9.0.0\\system.numerics.tensors.9.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

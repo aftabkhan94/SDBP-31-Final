@@ -1,0 +1,68 @@
+[
+  {
+    "ContainingType": "AgentAssignment.Server.Controllers.ChatController",
+    "Method": "Health",
+    "RelativePath": "health",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 503
+      }
+    ]
+  },
+  {
+    "ContainingType": "AgentAssignment.Server.Controllers.ChatController",
+    "Method": "CompleteAsync",
+    "RelativePath": "v1/chat/completions",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "AgentAssignment.Server.Contracts.ChatCompletionRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "AgentAssignment.Server.Contracts.ChatCompletionResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "AgentAssignment.Server.Contracts.ApiErrorResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "AgentAssignment.Server.Contracts.ApiErrorResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 500
+      },
+      {
+        "Type": "AgentAssignment.Server.Contracts.ApiErrorResponse",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 503
+      }
+    ]
+  }
+]

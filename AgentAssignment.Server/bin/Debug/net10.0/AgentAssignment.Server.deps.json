@@ -1,0 +1,287 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0/win-x64",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {},
+    ".NETCoreApp,Version=v10.0/win-x64": {
+      "AgentAssignment.Server/1.0.0": {
+        "dependencies": {
+          "Microsoft.AI.Foundry.Local": "2.0.1",
+          "Microsoft.Extensions.AI.OpenAI": "10.10.1"
+        },
+        "runtime": {
+          "AgentAssignment.Server.dll": {}
+        }
+      },
+      "Betalgo.Ranul.OpenAI/9.1.0": {
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "9.0.0",
+          "Microsoft.Extensions.AI.Abstractions": "10.10.1"
+        },
+        "runtime": {
+          "lib/net9.0/Betalgo.Ranul.OpenAI.dll": {
+            "assemblyVersion": "9.1.0.0",
+            "fileVersion": "9.1.0.0"
+          }
+        }
+      },
+      "Microsoft.AI.Foundry.Local/2.0.1": {
+        "dependencies": {
+          "Betalgo.Ranul.OpenAI": "9.1.0",
+          "Microsoft.AI.Foundry.Local.Runtime": "2.0.1"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.AI.Foundry.Local.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Microsoft.AI.Foundry.Local.Runtime/2.0.1": {
+        "dependencies": {
+          "Microsoft.ML.OnnxRuntime": "1.28.0",
+          "Microsoft.ML.OnnxRuntimeGenAI.Foundry": "0.15.2"
+        },
+        "native": {
+          "runtimes/win-x64/native/Microsoft.Windows.AI.MachineLearning.dll": {
+            "fileVersion": "2.1.70.24056"
+          },
+          "runtimes/win-x64/native/foundry_local.dll": {
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/foundry_local.lib": {
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Microsoft.Bcl.AsyncInterfaces/9.0.0": {
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.52809"
+          }
+        }
+      },
+      "Microsoft.Extensions.AI.Abstractions/10.10.1": {
+        "runtime": {
+          "lib/net10.0/Microsoft.Extensions.AI.Abstractions.dll": {
+            "assemblyVersion": "10.10.0.0",
+            "fileVersion": "10.1000.126.47502"
+          }
+        }
+      },
+      "Microsoft.Extensions.AI.OpenAI/10.10.1": {
+        "dependencies": {
+          "Microsoft.Extensions.AI.Abstractions": "10.10.1",
+          "OpenAI": "2.14.0"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.Extensions.AI.OpenAI.dll": {
+            "assemblyVersion": "10.10.0.0",
+            "fileVersion": "10.1000.126.47502"
+          }
+        }
+      },
+      "Microsoft.ML.OnnxRuntime/1.28.0": {
+        "dependencies": {
+          "Microsoft.ML.OnnxRuntime.Managed": "1.28.0"
+        },
+        "native": {
+          "runtimes/win-x64/native/onnxruntime.dll": {
+            "fileVersion": "1.28.0.724"
+          },
+          "runtimes/win-x64/native/onnxruntime.lib": {
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/onnxruntime_providers_shared.dll": {
+            "fileVersion": "1.28.0.724"
+          },
+          "runtimes/win-x64/native/onnxruntime_providers_shared.lib": {
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Microsoft.ML.OnnxRuntime.Managed/1.28.0": {
+        "dependencies": {
+          "System.Numerics.Tensors": "9.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.ML.OnnxRuntime.dll": {
+            "assemblyVersion": "1.28.0.0",
+            "fileVersion": "1.28.0.0"
+          }
+        }
+      },
+      "Microsoft.ML.OnnxRuntimeGenAI.Foundry/0.15.2": {
+        "dependencies": {
+          "Microsoft.ML.OnnxRuntimeGenAI.Managed": "0.15.2"
+        },
+        "native": {
+          "runtimes/win-x64/native/onnxruntime-genai.dll": {
+            "fileVersion": "0.15.2.0"
+          },
+          "runtimes/win-x64/native/onnxruntime-genai.lib": {
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Microsoft.ML.OnnxRuntimeGenAI.Managed/0.15.2": {
+        "dependencies": {
+          "Microsoft.Extensions.AI.Abstractions": "10.10.1"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.ML.OnnxRuntimeGenAI.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "OpenAI/2.14.0": {
+        "dependencies": {
+          "System.ClientModel": "1.15.0"
+        },
+        "runtime": {
+          "lib/net10.0/OpenAI.dll": {
+            "assemblyVersion": "2.14.0.0",
+            "fileVersion": "2.14.0.0"
+          }
+        }
+      },
+      "System.ClientModel/1.15.0": {
+        "dependencies": {
+          "System.Memory.Data": "10.0.9"
+        },
+        "runtime": {
+          "lib/net10.0/System.ClientModel.dll": {
+            "assemblyVersion": "1.15.0.0",
+            "fileVersion": "1.1500.26.40403"
+          }
+        }
+      },
+      "System.Memory.Data/10.0.9": {
+        "runtime": {
+          "lib/net10.0/System.Memory.Data.dll": {
+            "assemblyVersion": "10.0.0.9",
+            "fileVersion": "10.0.926.27113"
+          }
+        }
+      },
+      "System.Numerics.Tensors/9.0.0": {
+        "runtime": {
+          "lib/net9.0/System.Numerics.Tensors.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.52809"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AgentAssignment.Server/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Betalgo.Ranul.OpenAI/9.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PwGW3nvCI65LQPu3EFdZfpB3Z9LNM3NTMGL6ewIrPXLxxCuMvwwJI87BAFQCvZhjILt49Me+gFu0HWQWYjtycA==",
+      "path": "betalgo.ranul.openai/9.1.0",
+      "hashPath": "betalgo.ranul.openai.9.1.0.nupkg.sha512"
+    },
+    "Microsoft.AI.Foundry.Local/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-X3Di8V1J0GskrWMlzLJChLNdVSVQc4xhU4KUMkuPSuVdSiHRohWNrtqi3juY9RdxyMmPW1gII2TqdUKMSXFgpg==",
+      "path": "microsoft.ai.foundry.local/2.0.1",
+      "hashPath": "microsoft.ai.foundry.local.2.0.1.nupkg.sha512"
+    },
+    "Microsoft.AI.Foundry.Local.Runtime/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yI5bPytI4EZM+sfL6sKmOiv1Ybi9po4Bn4a+EHs3CBfFnFH7Czbf6rgZv2obUeUijE8JpZpRITPjt7VpXgr4AQ==",
+      "path": "microsoft.ai.foundry.local.runtime/2.0.1",
+      "hashPath": "microsoft.ai.foundry.local.runtime.2.0.1.nupkg.sha512"
+    },
+    "Microsoft.Bcl.AsyncInterfaces/9.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-owmu2Cr3IQ8yQiBleBHlGk8dSQ12oaF2e7TpzwJKEl4m84kkZJjEY1n33L67Y3zM5jPOjmmbdHjbfiL0RqcMRQ==",
+      "path": "microsoft.bcl.asyncinterfaces/9.0.0",
+      "hashPath": "microsoft.bcl.asyncinterfaces.9.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.AI.Abstractions/10.10.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Kz6ezQfRb9x2TkIWyaXkVAfpvyoAlEDfC59klPrdr2XD5WM4HNw+PREAZ+Fo43GPldtX+E0i1aYzMFQ/zXYMLg==",
+      "path": "microsoft.extensions.ai.abstractions/10.10.1",
+      "hashPath": "microsoft.extensions.ai.abstractions.10.10.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.AI.OpenAI/10.10.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0cYykDvDaTyLHA73DzjVzsNO/GNOutuliPrhQ5kzKSK4BuUnpFyHnPU63XqD4jsz+FCNZefi19TGc+zkaabIBA==",
+      "path": "microsoft.extensions.ai.openai/10.10.1",
+      "hashPath": "microsoft.extensions.ai.openai.10.10.1.nupkg.sha512"
+    },
+    "Microsoft.ML.OnnxRuntime/1.28.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xpguSCrXBe5E1l1088S7UqnI36EHaTL6CJMHEhwfGBoSwyPH5Q/IkbkBBk/GwXWzsVyEXpQm42ZimSAQs0/zKA==",
+      "path": "microsoft.ml.onnxruntime/1.28.0",
+      "hashPath": "microsoft.ml.onnxruntime.1.28.0.nupkg.sha512"
+    },
+    "Microsoft.ML.OnnxRuntime.Managed/1.28.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4ecKjwASHhAZXczK/xm5KU6MdvoIGfMd23UAwDbM9vfcfgqZgNqvFWPZPT0Elc1wu5vXWs2Kij1ZBmHCcv1UlA==",
+      "path": "microsoft.ml.onnxruntime.managed/1.28.0",
+      "hashPath": "microsoft.ml.onnxruntime.managed.1.28.0.nupkg.sha512"
+    },
+    "Microsoft.ML.OnnxRuntimeGenAI.Foundry/0.15.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1fhyP2Hig+gbUtknN6BVjHESm8r0AXsLAkyI0bU8s4KtWjpg/Aq+5ZW+i8gCyOFyyts5YekHJd1tVMvr6n6VyA==",
+      "path": "microsoft.ml.onnxruntimegenai.foundry/0.15.2",
+      "hashPath": "microsoft.ml.onnxruntimegenai.foundry.0.15.2.nupkg.sha512"
+    },
+    "Microsoft.ML.OnnxRuntimeGenAI.Managed/0.15.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qILyIlkcecRZb1S+CW76hcV8UxFussgbC7BrD89hP7M+ZiUPoT8NDFCmvxWEhUBWvYfKF2sflQDI0eCBFgjfFQ==",
+      "path": "microsoft.ml.onnxruntimegenai.managed/0.15.2",
+      "hashPath": "microsoft.ml.onnxruntimegenai.managed.0.15.2.nupkg.sha512"
+    },
+    "OpenAI/2.14.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AeyC3GxbrJ7KRoWDyFeNSUOQQWD9AnNvM7LYQijCcXcqjyr53aGRcf5GBLExcSBzIs0RWYHe+NbzPrHTeuU5zA==",
+      "path": "openai/2.14.0",
+      "hashPath": "openai.2.14.0.nupkg.sha512"
+    },
+    "System.ClientModel/1.15.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-y6zQLInrpX+oGL1gXM04DrUSu1O1esWxt4rD/zrujTnzIFChn/noD1OiVVpTrU8ZvglwqO2Uw038svUR3SiAOg==",
+      "path": "system.clientmodel/1.15.0",
+      "hashPath": "system.clientmodel.1.15.0.nupkg.sha512"
+    },
+    "System.Memory.Data/10.0.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YweovHiLUoEdbr2Xv8eRqCSkTu1vMms4a6xBHaQiMSFVy32PL+hXv6Vhol2NWOmLHjaVgTyhJ3R52U6JxS6w3Q==",
+      "path": "system.memory.data/10.0.9",
+      "hashPath": "system.memory.data.10.0.9.nupkg.sha512"
+    },
+    "System.Numerics.Tensors/9.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hyJB4UlpAi19Xr9AXzu2NuagKC4lPfHObNMEAA0HmqFz2rX7wKgzeYzO/jM/eBHDhnUGFFEjk5cOoJaxqg5J4A==",
+      "path": "system.numerics.tensors/9.0.0",
+      "hashPath": "system.numerics.tensors.9.0.0.nupkg.sha512"
+    }
+  }
+}
